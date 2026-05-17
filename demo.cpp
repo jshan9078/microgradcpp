@@ -70,8 +70,8 @@ void run_mlp_demo() {
     for (size_t i = 0; i < xs.size(); ++i) {
         Val pred = model.forward(xs[i])[0];
         cout << "  Input: [" << xs[i][0]->data << ", " << xs[i][1]->data << ", " << xs[i][2]->data 
-                  << "] | Predicted: " << showpos << fixed << setprecision(4) << pred->data 
-                  << " (Target: " << ys[i]->data << ")" << endl;
+             << "] | Prediction Value: " << showpos << fixed << setprecision(4) << pred->data 
+             << " | Target Value: " << noshowpos << ys[i]->data << endl;
     }
 }
 

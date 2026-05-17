@@ -175,8 +175,8 @@ Training the MLP (100 epochs)...
   Epoch 100 | Loss: 0.000270
 
 Predictions:
-  Input: [2, 3, -1]    | Predicted: +0.9862 (Target: +1.0)
-  Input: [3, -1, 0.5]  | Predicted: -1.0002 (Target: -1.0)
-  Input: [0.5, 1, 1]   | Predicted: -0.9942 (Target: -1.0)
-  Input: [1, 1, -1]    | Predicted: +0.9727 (Target: +1.0)
+  Input: [2.0, 3.0, -1.0] | Prediction Value: +0.9862 | Target Value: 1.0000
+  Input: [3.0, -1.0, 0.5] | Prediction Value: -1.0002 | Target Value: -1.0000
+  Input: [0.5, 1.0, 1.0] | Prediction Value: -0.9942 | Target Value: -1.0000
+  Input: [1.0, 1.0, -1.0] | Prediction Value: +0.9727 | Target Value: 1.0000
 ```
