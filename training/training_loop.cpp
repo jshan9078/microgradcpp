@@ -17,6 +17,9 @@ void train(MLP& model,
             predictions.push_back(model.forward(input)[0]);
         }
 
+        // Compute the L2 / Sum of Squared Errors (SSE) loss.
+        // Calculates the squared difference between each prediction and its ground-truth target,
+        // accumulating them to get the total error metric that the model seeks to minimize.
         Val loss = std::make_shared<Value>(0.0);
         for (size_t i = 0; i < targets.size(); ++i) {
             loss = loss + (predictions[i] - targets[i])->pow(2);
