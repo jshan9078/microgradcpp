@@ -167,16 +167,16 @@ Unit tests evaluate forward and backward passes against exact analytical values 
 - `b->grad` = `645.577259475219`
 
 ### MLP Optimization Loss
-Optimizes an `MLP(3, {4, 4, 1})` binary classifier down to `< 0.29` loss:
+Optimizes an `MLP(3, {4, 4, 1})` binary classifier down to `< 0.0003` loss:
 ```
 Training the MLP (100 epochs)...
-  Epoch   1 | Loss: 4.391651
-  Epoch  50 | Loss: 0.542668
-  Epoch 100 | Loss: 0.289267
+  Epoch   1 | Loss: 1.097913
+  Epoch  50 | Loss: 0.063801
+  Epoch 100 | Loss: 0.000270
 
 Predictions:
-  Input: [2, 3, -1]    | Predicted: +0.4951 (Target: +1.0)
-  Input: [3, -1, 0.5]  | Predicted: -0.8467 (Target: -1.0)
-  Input: [0.5, 1, 1]   | Predicted: -1.0810 (Target: -1.0)
-  Input: [1, 1, -1]    | Predicted: +0.5782 (Target: +1.0)
+  Input: [2, 3, -1]    | Predicted: +0.9862 (Target: +1.0)
+  Input: [3, -1, 0.5]  | Predicted: -1.0002 (Target: -1.0)
+  Input: [0.5, 1, 1]   | Predicted: -0.9942 (Target: -1.0)
+  Input: [1, 1, -1]    | Predicted: +0.9727 (Target: +1.0)
 ```
