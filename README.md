@@ -1,4 +1,4 @@
-# micrograd C++ (Split-File Modular Edition)
+# micrograd C++
 
 A self-contained, lightweight scalar autograd engine and neural network library in C++17, inspired by Andrej Karpathy's [micrograd](https://github.com/karpathy/micrograd). Designed purely for educational clarity, splitting the codebase into modular subdirectories representing different abstraction layers, while preserving a facade convenience header `micrograd.hpp` at the root.
 
