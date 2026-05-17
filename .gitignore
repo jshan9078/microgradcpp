@@ -1,0 +1,22 @@
+# Build Executables
+/demo
+/test_micrograd
+
+# Object files and dynamic library binaries
+*.o
+*.a
+*.so
+*.dylib
+
+# CMake build outputs and caches
+/CMakeCache.txt
+/CMakeFiles/
+/CMakeSettings.json
+/cmake_install.cmake
+/Makefile.cmake
+/build/
+
+# Operating System and IDE Caches
+.DS_Store
+.vscode/
+.idea/
