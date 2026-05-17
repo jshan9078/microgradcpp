@@ -1,0 +1,28 @@
+=============================================
+  2. Multi-Layer Perceptron Training Demo
+=============================================
+Dataset:
+  x0: [2, 3, -1] -> target y0: 1
+  x1: [3, -1, 0.5] -> target y1: -1
+  x2: [0.5, 1, 1] -> target y2: -1
+  x3: [1, 1, -1] -> target y3: 1
+
+Training the MLP (100 epochs)...
+  Epoch   1 | Loss: 4.391651
+  Epoch  10 | Loss: 0.553440
+  Epoch  20 | Loss: 2.700885
+  Epoch  30 | Loss: 2.584123
+  Epoch  40 | Loss: 1.240703
+  Epoch  50 | Loss: 0.542668
+  Epoch  60 | Loss: 0.552903
+  Epoch  70 | Loss: 0.477447
+  Epoch  80 | Loss: 0.416767
+  Epoch  90 | Loss: 0.352305
+  Epoch 100 | Loss: 0.289267
+
+Predictions after training:
+  Input: [2.000000, 3.000000, -1.000000] | Predicted: +0.4951 (Target: +1.0000)
+  Input: [+3.0000, -1.0000, +0.5000] | Predicted: -0.8467 (Target: -1.0000)
+  Input: [+0.5000, +1.0000, +1.0000] | Predicted: -1.0810 (Target: -1.0000)
+  Input: [+1.0000, +1.0000, -1.0000] | Predicted: +0.5782 (Target: +1.0000)
+=============================================

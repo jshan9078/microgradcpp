@@ -1,0 +1,8 @@
+=============================================
+  1. Scalar Autograd Computational Graph Demo
+=============================================
+Expression: g = f/2 + 10/f
+Forward Pass Output (g): 24.7041
+Backward Pass Gradients:
+  dg/da: 138.834
+  dg/db: 645.577
